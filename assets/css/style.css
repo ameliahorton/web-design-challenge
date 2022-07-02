@@ -1,0 +1,74 @@
+body {
+  background: #dfdff1;
+}
+
+body {
+  margin: 25px 50px 75px 100px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: #dfdff1;
+  border-radius: 3px;
+}
+
+.navbar li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.header {
+  height: 200px;
+  padding-top: 20px;
+  background: #cdcdcd;
+}
+
+.header h1 {
+  padding: 60px;
+  margin: 0;
+  color: rgb(0, 68, 100);
+  text-align: center;
+}
+
+.header h2 {
+  padding: 60px;
+  margin: 0;
+  color: rgb(0, 68, 155);
+  text-align: center;
+}
+
+/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+@media (max-width: 480px) {
+  .navbar li {
+    padding: 10px;
+  }
+
+  .post {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .navbar ul {
+    visibility: hidden;
+  }
+
+  #nav-select {
+    visibility: visible;
+  }
+}
+
+#line-break {
+  white-space: pre-line;
+}
